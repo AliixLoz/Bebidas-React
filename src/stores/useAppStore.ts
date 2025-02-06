@@ -1,6 +1,6 @@
 import { create } from "zustand";
-import { createRecipesSlice, RecipesSlicesType } from "./recipeSlice";
+import { createRecipesSlice, RecipesSliceType } from "./recipeSlice";
 
-export const useAppStore = create<RecipesSlicesType>((...a) => ({
+export const useAppStore = create<RecipesSliceType>((...a) => ({
     ...createRecipesSlice(...a)
 }))
