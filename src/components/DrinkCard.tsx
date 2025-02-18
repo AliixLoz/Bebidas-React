@@ -16,10 +16,10 @@ export default function DrinkCard({drink}: DrinkCardProps){
             <img 
             src={drink.strDrinkThumb} 
             alt={'Imagen de ' + drink.strDrink}
-            className="hover:scale-125 transition-transform hover:rotate-2"
+            className="hover:scale-105 transition-transform hover:rotate-2"
              />
         </div>
-        <div className="p-5">
+        <div className="p-4">
             <h2 className="text-2xl truncate font-black">
                 {drink.strDrink}
             </h2>
